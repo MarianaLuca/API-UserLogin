@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    background-color: #00000083;
+    
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+    font-family: Arial;
+    font-size: 15px;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+button {
+    background-color: #01c2a2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
